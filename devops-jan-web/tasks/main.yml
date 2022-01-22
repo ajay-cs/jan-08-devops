@@ -1,7 +1,7 @@
 ---
 # tasks file for devops-jan-web
      - name: "Install package"
-       yum:
+       apt:
          name: nginx
          state: latest
 
